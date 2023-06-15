@@ -1,0 +1,23 @@
+{
+  "name": "mint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@metaplex-foundation/js": "^0.19.3",
+    "@metaplex-foundation/js-plugin-nft-storage": "^0.19.3",
+    "@solana/web3.js": "^1.76.0",
+    "@metaplex-foundation/mpl-token-metadata": "^2.2.1",
+    "@solana/spl-token": "^0.3.7",
+    "bs58": "^5.0.0",
+    "ts-node": "^10.9.1"
+  }
+}
